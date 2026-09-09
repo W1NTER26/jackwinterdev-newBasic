@@ -8,11 +8,12 @@ body {
 }
 
 .mainText {
-    padding: 3vw;
+    padding: 2vw;
     background-color: darkslategray;
     border-radius: 2vw;
     width: 50vw;
     margin: 0 auto;
+    max-width: 500px;
 }
 
 .footer {
@@ -41,7 +42,8 @@ body {
     background-color:saddlebrown;
     border-radius: 2vw;
     width: 30vw;
-    margin: auto
+    margin: auto;
+    max-width: 400px;
 }
 
 .navbar:hover {
