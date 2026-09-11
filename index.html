@@ -4,6 +4,8 @@
         <head>
             <title>JW | Home</title>
              <link rel="stylesheet" type = "text/css" href="style.css">
+             <script src="script.js" defer>
+             </script>
         </head>
         <body>
 
@@ -13,15 +15,24 @@
                 <a href="about.html">about me</a>
             </div>
 
+            <div class="bgToggle">
+                <a href="#" onclick="darkLightToggle()">[Light]</a>
+            </div>
+
             <br>
 
             <div class="mainText">
                 <div><h3>Welcome to Jack Winter.Dev</h3></div>
-                <div>Im a CS Major at the University of Arizona.</div>
+                <div style="visibility: hidden;">Im a CS Major at the University of Arizona.</div>
                 <br>
                 <div>Website is <span style="text-decoration: underline;">Under Development</span>, <br>
                     check back later for more content</div>
             </div>
+
+            <!-- <div style="display: none;">
+                <h5>Thoughts on running list of what im working on rn with dates <br>
+                like and patch notes list?</h5>
+            </div> -->
 
             <div class="footer">&copy; 2026 jackwinter.dev</div>
         </body>

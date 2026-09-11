@@ -23,6 +23,7 @@ body {
     width: 50vw;
     margin: 0 auto;
     max-width: 500px;
+    /* check this as well */
 }
 
 .workTable {
@@ -41,27 +42,37 @@ body {
     position: fixed
 }
 
-.navbar a{
+.navbar a,
+.bgToggle a{
     color: rgba(255, 255, 255, 0.873);
     padding: 1vw;
     text-decoration: none;
 }
 
-.navbar a:hover{
+.navbar a:hover,
+.bgToggle a:hover {
     color: rgba(255, 255, 255, 0.873);
     padding: 1vw;
     text-decoration: underline;
 }
 
-.navbar {
-    padding: 1vw;
+.navbar, 
+.bgToggle {
+    padding: 1vh; /*changed to height */
     background-color:saddlebrown;
     border-radius: 2vw;
     width: 30vw;
     margin: auto;
     max-width: 400px;
+    display: inline;
 }
 
-.navbar:hover {
+.navbar:hover,
+.bgToggle:hover {
     background-color:rgb(118, 60, 18);
+}
+
+.bgButton {
+    background-color: blanchedalmond;
+    border-radius: 3vw;
 }
